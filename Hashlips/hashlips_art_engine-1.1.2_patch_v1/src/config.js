@@ -26,11 +26,11 @@ const solanaMetadata = {
 };
 
 const layerConfigurations = [{
-    growEditionSizeTo: 1,
+    growEditionSizeTo: 5,
     layersOrder: [
       {name: "Background"},
       //{name: "Breed"},
-      //{name: "Eyes"},
+      {name: "Eyes"},
       //{name: "Worm"},
     ],
   },

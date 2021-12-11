@@ -22,20 +22,28 @@ const solanaMetadata = {
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
+
+// ****************************************************************************************
+// Ce face layerConfigurations: 
+// growEditionSizeTo: n, => CATE NFTS SA SE CREEZE
+// layersOrder: [] => IN CE ORDINE PROGRAMUL VA GENERA IMAGINILE
+ 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      //{ name: "Eyeball" },
+      //{ name: "Eye color" },
+      //{ name: "Iris" },
+      { name: "Breed" },
     ],
-  },
+  }, 
+// Obiecte 
+
 ];
+
+// ****************************************************************************************
 
 const shuffleLayerConfigurations = false;
 

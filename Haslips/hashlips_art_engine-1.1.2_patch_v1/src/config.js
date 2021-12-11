@@ -31,7 +31,7 @@ const solanaMetadata = {
 // layersOrder: [] => IN CE ORDINE PROGRAMUL VA GENERA IMAGINILE
 
 const layerConfigurations = [{
-    growEditionSizeTo: 36,
+    growEditionSizeTo: 10,
     layersOrder: [
       {name: "Background"},
       {name: "Breed"},

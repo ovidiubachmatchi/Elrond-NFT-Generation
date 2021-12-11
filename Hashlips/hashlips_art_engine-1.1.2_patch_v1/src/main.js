@@ -297,7 +297,7 @@ const createDna = (_layers) => {
 };
 
 const writeMetaData = (_data) => {
-  fs.writeFileSync(`${buildDir}/images/collection.json`, _data);
+  fs.writeFileSync(`${buildDir}/images/_metadata.json`, _data);
 };
 
 const saveMetaDataSingleFile = (_editionCount) => {

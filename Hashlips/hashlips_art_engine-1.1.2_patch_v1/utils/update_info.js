@@ -11,7 +11,7 @@ const {
 } = require(`${basePath}/src/config.js`);
 
 // read json data
-let rawdata = fs.readFileSync(`${basePath}/build/json/_metadata.json`);
+let rawdata = fs.readFileSync(`${basePath}/build/images/_metadata.json`);
 let data = JSON.parse(rawdata);
 
 data.forEach((item) => {

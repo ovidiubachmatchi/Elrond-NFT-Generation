@@ -1,6 +1,10 @@
 const basePath = process.cwd();
-const { MODE } = require(`${basePath}/constants/blend_mode.js`);
-const { NETWORK } = require(`${basePath}/constants/network.js`);
+const {
+  MODE
+} = require(`${basePath}/constants/blend_mode.js`);
+const {
+  NETWORK
+} = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.eth;
 
@@ -13,12 +17,10 @@ const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
-  creators: [
-    {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
-    },
-  ],
+  creators: [{
+    address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+    share: 100,
+  }, ],
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -27,19 +29,24 @@ const solanaMetadata = {
 // Ce face layerConfigurations: 
 // growEditionSizeTo: n, => CATE NFTS SA SE CREEZE
 // layersOrder: [] => IN CE ORDINE PROGRAMUL VA GENERA IMAGINILE
- 
-const layerConfigurations = [
-  {
-    growEditionSizeTo: 10,
-    layersOrder: [
-      { name: "Background" },
-      //{ name: "Eyeball" },
-      //{ name: "Eye color" },
-      //{ name: "Iris" },
-      { name: "Breed" },
+
+const layerConfigurations = [{
+    growEditionSizeTo: 36,
+    layersOrder: [{
+        name: "Background"
+      },
+      {
+        name: "Breed"
+      },
+      {
+        name: "Eyes"
+      },
+      {
+        name: "Worm"
+      },
     ],
-  }, 
-// Obiecte 
+  },
+  // Obiecte 
 
 ];
 

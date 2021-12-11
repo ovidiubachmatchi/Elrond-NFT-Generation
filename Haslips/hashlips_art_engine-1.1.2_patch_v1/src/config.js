@@ -32,18 +32,11 @@ const solanaMetadata = {
 
 const layerConfigurations = [{
     growEditionSizeTo: 36,
-    layersOrder: [{
-        name: "Background"
-      },
-      {
-        name: "Breed"
-      },
-      {
-        name: "Eyes"
-      },
-      {
-        name: "Worm"
-      },
+    layersOrder: [
+      {name: "Background"},
+      {name: "Breed"},
+      {name: "Eyes"},
+      {name: "Worm"},
     ],
   },
   // Obiecte 
@@ -52,7 +45,7 @@ const layerConfigurations = [{
 
 // ****************************************************************************************
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 

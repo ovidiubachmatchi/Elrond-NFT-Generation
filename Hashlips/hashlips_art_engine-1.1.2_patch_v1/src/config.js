@@ -26,7 +26,7 @@ const solanaMetadata = {
 };
 
 const layerConfigurations = [{
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 1000,
     layersOrder: [
       {name: "Background"},
       {name: "Breed"},

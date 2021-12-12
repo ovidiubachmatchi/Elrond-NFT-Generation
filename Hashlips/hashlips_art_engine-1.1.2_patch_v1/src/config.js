@@ -9,14 +9,14 @@ const {
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "testREP";
-const description = "Test";
+const namePrefix = "Reptilian";
+const description = "The invasion of reptilians on earth, they disguise themselves and take human forms.";
 const baseUri = "";
 
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
@@ -26,7 +26,7 @@ const solanaMetadata = {
 };
 
 const layerConfigurations = [{
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 1000,
     layersOrder: [
       {name: "Background"},
       {name: "Breed"},
